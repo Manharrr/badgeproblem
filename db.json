@@ -1,0 +1,18 @@
+{
+  "users": [
+    { "id": 1, "name": "Arjun Kumar", "city": "Kozhikode", "phone": "9876543210", "place": "Calicut", "degree": "BCA" },
+    { "id": 2, "name": "Rahul Nair", "city": "Kochi", "phone": "9876543211", "place": "Ernakulam", "degree": "BSc CS" },
+    { "id": 3, "name": "Akhil Raj", "city": "Thrissur", "phone": "9876543212", "place": "Irinjalakuda", "degree": "BTech" },
+    { "id": 4, "name": "Vishnu Das", "city": "Malappuram", "phone": "9876543213", "place": "Tirur", "degree": "BCA" },
+    { "id": 5, "name": "Sreejith P", "city": "Palakkad", "phone": "9876543214", "place": "Ottapalam", "degree": "BCom" },
+    { "id": 6, "name": "Anoop Menon", "city": "Kannur", "phone": "9876543215", "place": "Taliparamba", "degree": "BA" },
+    { "id": 7, "name": "Nithin S", "city": "Kollam", "phone": "9876543216", "place": "Karunagappally", "degree": "BSc Maths" },
+    { "id": 8, "name": "Abhinav K", "city": "Trivandrum", "phone": "9876543217", "place": "Kazhakoottam", "degree": "BTech" },
+    { "id": 9, "name": "Fahad Ali", "city": "Kasaragod", "phone": "9876543218", "place": "Uppala", "degree": "BBA" },
+    { "id": 10, "name": "Shyam Prasad", "city": "Alappuzha", "phone": "9876543219", "place": "Cherthala", "degree": "BCom" },
+
+    { "id": 11, "name": "Rohit R", "city": "Kottayam", "phone": "9876543220", "place": "Pala", "degree": "BCA" }
+  ],
+  "product":[]
+  
+}
