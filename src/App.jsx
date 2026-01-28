@@ -10,6 +10,9 @@ import TrafficLight from './todo/trafic'
 // import Sudev from './todo/sudev'
 // import Training from './sudevtodo'
 import Page4 from './todo/timer'
+import Crud from './todo/crud'
+import Appp from './todo/lasttodo'
+import Apppp from './todo/useref'
 // import New from './todo/new'
 // import Pagination from './todo/pagination'
 
@@ -20,17 +23,20 @@ function App() {
     <div>
      {/* <Todo/> */}
      
-     {/* <CheckBox/> */}
+     <CheckBox/>
       {/* <Studytodo/> */}
-      <Axios/>
+      {/* <Axios/> */}
       {/* <New/> */}
-    {/* <TrafficLight/> */}
+    <TrafficLight/>
     {/* <Box/> */}
       {/* <Sudev/> */}
       {/* <Training/> */}
       {/* <Page4/> */}
 {/* <New/> */}
 {/* <Pagination/> */}
+{/* <Crud/> */}
+<Appp/>
+<Apppp/>
     </div>
   )
 }

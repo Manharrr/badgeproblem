@@ -61,14 +61,14 @@ import React, { useEffect, useState } from 'react'
 function TrafficLight() {
 const light=[ 
     {color:"red",delay:1000},
-    {color:"green", delay:2000},
-    {color:"yellow",delay:1000}
+    {color:"yellow", delay:2000},
+    {color:"green",delay:4000}
 ]
 const [bright,setbright]=useState(0)
 const [start,setstart]=useState(false)
 
 useEffect(()=>{
-    if(!start)return;
+    if(!start)return; 
     const interval=setInterval(()=>{
         setbright((prev)=>(prev+1)% light.length)
     },light[bright].delay)
@@ -90,10 +90,10 @@ useEffect(()=>{
             {light.map((light,index)=>(
                 <div style={{
                     backgroundColor:light.color,
-                    width:100,
-                    height:100,
-                    borderRadius:100,
-                    opacity:bright==index? 1 : 0.2
+                    width:"100px",
+                    height:"100px",
+                    borderRadius:"100%",
+                    opacity:bright===index? 1 : 0.2
 
                 }}></div>
             ))}
@@ -101,6 +101,7 @@ useEffect(()=>{
         </div>
 <button onClick={()=>setstart(true)}>start</button>
 <button onClick={()=>setstart(false)}>stop</button>
+<button onClick={()=>setstart((prev)=>!prev)}>{start?"off":"onnn"}</button>
       
     </div>
   ) 
@@ -114,3 +115,4 @@ export default TrafficLight
 
 
 
+ 

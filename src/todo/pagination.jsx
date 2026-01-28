@@ -8,11 +8,13 @@
 //   "raspberry", "strawberry", "tangerine", "ugli", "watermelon"
 // ];
 // const [limit,setLimit]=useState(0)
+
 // const [items,setItems]=useState(words.slice(limit,limit+5));
 
 // useEffect(()=>{
 //     setItems(words.slice(limit,limit+5))
 // },[limit])
+
 
 //   return (
 //     <div>
@@ -27,6 +29,8 @@
 // }
 
 // export default Pagination
+
+
 
 
 import React, { useEffect, useState } from 'react'
@@ -55,7 +59,7 @@ useEffect(()=>{
         <li>{item}</li>
       ))}
       
-      <button onClick={()=>setLimit(prev=>prev-5)} disabled={limit==0}>Previous</button>
+      <button onClick={()=>setLimit(prev=>prev-5)} disabled={limit===0}>Previous</button>
       <button onClick={()=>setLimit(prev=>prev+5)} disabled={limit+5>=words.length}>nexttt</button>
     </div>
   )
