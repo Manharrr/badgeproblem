@@ -111,7 +111,7 @@ function Studytodo() {
   }
 
   const handleundo = (item) => {
-    setDeleted(deleted.filter(t => t.id !== item.id))//id equal ആയ item ❌ remove
+    setDeleted(deleted.filter(t => t.id !== item.id))
     setList([...list, item]) 
   }
 

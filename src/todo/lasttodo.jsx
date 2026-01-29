@@ -4,7 +4,7 @@ import {useState} from "react"
 export default function Appp()  {
 
     const[text,setText]=useState("")
-    const[list,setList]=useState([])////////////////////////
+    const[list,setList]=useState([])
     const[deleted,setDeleted]=useState([])
     const [completed,setcompleted]=useState([])
     const[edit,setedit]=useState(null)
